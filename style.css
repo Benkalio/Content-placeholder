@@ -1,14 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Noto" sans-serif;
-  background-color: #2a2c2c;
+  background-color: #ecf0f1;
+  font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -21,7 +20,7 @@ img {
 }
 
 .card {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
   width: 350px;
@@ -38,7 +37,7 @@ img {
 }
 
 .card-content {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 30px;
 }
 
@@ -48,7 +47,7 @@ img {
 }
 
 .card-excerpt {
-  color: #777777;
+  color: #777;
   margin: 10px 0 20px;
 }
 
@@ -59,24 +58,49 @@ img {
 .profile-img {
   border-radius: 50%;
   overflow: hidden;
-  height: 40%;
+  height: 40px;
   width: 40px;
 }
 
-.author-info small {
-  color: #aaaaaa;
-  margin: 5px;
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  width: 100px;
 }
 
-/* ANIMATION EFFECT */
+.author-info small {
+  color: #aaa;
+  margin-top: 5px;
+}
 
 .animated-bg {
   background-image: linear-gradient(
     to right,
     #f6f7f8 0%,
-    #edeef1,
+    #edeef1 10%,
     #f6f7f8 20%,
     #f6f7f8 100%
   );
   background-size: 200% 100%;
+  animation: bgPos 1s linear infinite;
+}
+
+.animated-bg-text {
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0;
+  height: 10px;
+  width: 100%;
+}
+
+@keyframes bgPos {
+  0% {
+    background-position: 50% 0;
+  }
+
+  100% {
+    background-position: -150% 0;
+  }
 }
