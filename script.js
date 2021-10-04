@@ -13,7 +13,6 @@ const today = new Date().getFullYear();
 // mm = String(today.getMonth() + 1).padStart(2, "0"),
 // yyyy = today.getFullYear();
 
-document.write(today);
 //SETTING TIMEOUT TO DELAY BEFORE CALLING getData() function
 setTimeout(getData(), 3000);
 
