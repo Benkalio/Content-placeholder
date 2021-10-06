@@ -27,6 +27,7 @@ function getData() {
   //USERS INFO FROM API
   profile_img.innerHTML =
     '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="users" />';
+  //NEW PROFILE NAME
   name.innerHTML = "Joseph Yobo";
   date.innerHTML = `${today}`;
 
