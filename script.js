@@ -24,6 +24,7 @@ function getData() {
   title.innerHTML = "Some title here";
   excerpt.innerHTML =
     "Some words can occupy this space for now until I have dynamically created the Javascript.";
+  //USERS INFO FROM API
   profile_img.innerHTML =
     '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="users" />';
   name.innerHTML = "Joseph Yobo";
