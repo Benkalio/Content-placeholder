@@ -11,7 +11,6 @@ const animated_bgs_texts = document.querySelectorAll(".animated-bg-text");
 const today = new Date().getFullYear();
 // dd = String(today.getDate()).padStart(2, "0"),
 // mm = String(today.getMonth() + 1).padStart(2, "0"),
-// yyyy = today.getFullYear();
 
 //SETTING TIMEOUT TO DELAY BEFORE CALLING getData() function
 setTimeout(getData(), 3000);
