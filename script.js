@@ -25,7 +25,7 @@ function getData() {
   profile_img.innerHTML =
     '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="users" />';
   //NEW PROFILE NAME
-  name.innerHTML = "Joseph Yobo";
+  name.innerHTML = "TRAVIS PARKER";
   date.innerHTML = `${today}`;
 
   //ADDING THE ANIMATION CLASS to loop through and remove the class from the html tags
