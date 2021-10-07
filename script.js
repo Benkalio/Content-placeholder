@@ -32,3 +32,5 @@ function getData() {
   animated_bgs.forEach((bg) => bg.classList.remove("animated-bg"));
   animated_bgs_texts.forEach((bg) => bg.classList.remove("animated-bg-text"));
 }
+
+// coded last weekend
